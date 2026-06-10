@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.body h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+.body p {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+.ingredients h2, .steps h2 {
+    text-align: center;
+    color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+.ingredients, .steps {
+    background-color: white;
+    margin-left: 20px aut;
+    padding: 20px;
+    border: 2px solid black;
+}
+.back-to-home {
+    text-align: center;
+    margin: 20px;
+}
+.back-to-home button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.back-to-home button a {
+    color: white;
+    text-decoration: none;
+}
+.back-to-home button:hover {
+    color: white;
+    background-color: darkblue;
+}

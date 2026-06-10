@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.body h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.body p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.ingredients, .steps {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+.ingredients h2, .steps h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+}
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.ingredients li {
+    margin-bottom: 5px;
+}
+.steps ol {
+    padding-left: 20px;
+}
+.steps li {
+    margin-bottom: 10px;
+}
+.back-to-home {
+    text-align: center;
+    margin: 20px;
+}
+.back-to-home button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.back-to-home button a {
+    color: white;
+    text-decoration: none;
+}
+.back-to-home button:hover {
+    background-color: #555;
+}  
